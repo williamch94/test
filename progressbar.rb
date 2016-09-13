@@ -14,4 +14,13 @@ class ProgressBar
     puts "#{@progress} out of #{@finish}"
   end
 
+  # Before the progress has happened, so increment the displayed number
+  def before_output
+    puts "#{@progress + 1} out of #{@finish}"
+  end
+
+  def progress
+    @progress
+  end
+
 end

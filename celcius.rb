@@ -17,6 +17,7 @@ require 'date'
 require 'Terminal-Table'
 
 require './progressbar.rb'
+require 'colorize'
 #require 'ruby - ProgressBar'
 
 
